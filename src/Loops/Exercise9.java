@@ -7,7 +7,7 @@ package Loops;
 // for loop to go through the array to find the greatest value Print the greatest number in the array
 public class Exercise9 {
     public static void main(String[] args) {
-        int[] numbers = {30, 6, 17, 9, 20, 5};
+        int[] numbers = {1, 6, 17, 9, 20, 5};
         int maxNum = numbers[0];
         for (int i = 0; i < numbers.length; i++) {
             if(maxNum < numbers[i]) {
