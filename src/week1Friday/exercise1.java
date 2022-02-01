@@ -1,6 +1,6 @@
 package week1Friday;
 
-public class exercise1 {
+public class Exercise1 {
     public static void main(String[] args) {
     /*  Write a program that compares two numbers. i.e x > y
                 Create 3 variables.
