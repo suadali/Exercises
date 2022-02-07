@@ -18,3 +18,16 @@ public class Exercise8 {
         System.out.println(Arrays.toString(words));
     }
 }
+
+
+//Trainer solution
+//String[] ourArray = new String[]{"i", "sure", "do", "love", "bees"};
+//
+//for (int i = 0; i < ourArray.length; i++) {
+//    char firstLetter = ourArray[i].charAt(0);
+//    char capLetter = Character.toUpperCase(firstLetter);
+//    String capWord = capLetter + ourArray[i].substring(1);
+//    ourArray[i] = capWord;
+//}
+//
+//System.out.println(Arrays.toString(ourArray));

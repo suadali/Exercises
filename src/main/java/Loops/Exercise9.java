@@ -8,7 +8,7 @@ package Loops;
 public class Exercise9 {
     public static void main(String[] args) {
         int[] numbers = {1, 6, 17, 9, 20, 5};
-        int maxNum = numbers[0];
+        int maxNum = 0;
         for (int i = 0; i < numbers.length; i++) {
             if(maxNum < numbers[i]) {
                 maxNum = numbers[i];
@@ -18,3 +18,12 @@ public class Exercise9 {
         }
     }
 }
+
+
+//better solution:
+//int maxNum = 0;
+//for (int number : numArray) {
+//    if (number > maxNum) {
+//    maxNum = number;}
+//}
+//System.out.println(maxNum);

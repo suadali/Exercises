@@ -4,38 +4,52 @@ import org.w3c.dom.ls.LSOutput;
 
 import java.util.Arrays;
 
-//create some functionality which uses a for loop which adds all numbers
-// from 0 to 10 (inclusive) to an array. Print this array in the console.
+
 public class Exercise4 {
     public static void main(String[] args) {
-//            for (int i = 0; i <= 10; i++) {
-//                int sum = 0;                    //if this is in the loop, each time you iterate, you set the sum back to 0
-//                sum += i;
-//                System.out.println(sum);
-//            }
 
-//        int sum = 0;
-//        for (int i = 0; i <= 10; i++) {
-//            sum += i;
-//            System.out.println(sum);   //if print is inside loop, it will printing
-//        }
+
+        //summing numberd together
+            for (int i = 0; i <= 10; i++) {
+                int sum = 0;                    //if this is in the loop, each time you iterate, you set the sum back to 0
+                sum += i;
+                System.out.println(sum);
+            }
+
+        int sum = 0;
+        for (int i = 0; i <= 10; i++) {
+            sum += i;
+            System.out.println(sum);   //if print is inside loop, it will printing
+        }
+
+
+
+        System.out.println("-----------------------");
+
+        sum = 0;
+        for (int i = 0; i <= 10; i++) {
+            sum += i;
+        }
+        System.out.println(sum);  //final answer
+
+
+
+
 
         System.out.println("-----------------------");
 
-//        int sum = 0;
-//        for (int i = 0; i <= 10; i++) {
-//            sum += i;
-//        }
-//        System.out.println(sum);  //final answer
-
-        System.out.println("-----------------------");
+        //create some functionality which uses a for loop which adds all numbers
+        // from 0 to 10 (inclusive) to an array. Print this array in the console.
 
         int[] numberArray = new int[11];
         for (int i = 0; i < numberArray.length; i++) {
             numberArray[i] = i;
         }
         System.out.println(Arrays.toString(numberArray));
-       
+
+
+
+
         //Using your answer to the previous question,
         //use a second for loop which prints each item in your
         //array to the terminal individually.
@@ -57,11 +71,11 @@ public class Exercise4 {
         //    // print the total sum
         //
 
-        int sum = 0;
+        int finalsum = 0;
         for (int nn : numberArray) {
-            sum += nn;
+            finalsum += nn;
         }
-        System.out.println(sum);
+        System.out.println(finalsum);
     }
 
 }

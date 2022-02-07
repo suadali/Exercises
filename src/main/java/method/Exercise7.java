@@ -13,10 +13,10 @@ public class Exercise7 {
     public static void main(String[] args) {
 
         String [] sentence={"I", "like", "turtles"};
-        counter(sentence);
+        wordCounter(sentence);
     }
 
-    public static void counter(String[] sentences) {
+    public static void wordCounter(String[] sentences) {
 
         System.out.println("The sentence contains " + sentences.length + " words");
     }

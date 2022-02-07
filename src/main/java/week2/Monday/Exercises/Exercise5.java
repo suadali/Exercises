@@ -14,6 +14,7 @@ public class Exercise5 {
 
             if (input.equals("Yes") || input.equals("yes")) {
                 Yes();
+                cont = true;
             } else if(input.equals("No") || input.equals("no")) {
                 System.out.println("No joke for you");
                 cont = false;
